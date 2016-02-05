@@ -23,7 +23,7 @@ main() {
 	
 	if(x < 2) { // Si se dividio menos de 2 veces es primo, en cambio si se dividio mas 1 ves no es numero primo
 		printf("Numero Primo");
-	} else { printf("Numero no Pimo"); }
+	} else { printf("Numero no Primo"); }
 	
 	printf("\n--------------------------------\n");
 	
