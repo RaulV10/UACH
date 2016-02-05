@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 // Raul Ernesto Villarreal Sigala
-// 05/02/2016
+// 05/Enero/2016
 
 main() {
 	int x = 0, primo, par, dia, mes, posOneg;
@@ -10,20 +10,15 @@ main() {
 	
 	printf("NUMEROS PRIMOS:\nIntroduce un Numero del 1 al 5: "); scanf("%d", &primo);
 	if (primo > 0 && primo < 6) {
-		if(primo != 1) { // Si el numero es 1 directamente es primo
-			if(primo/2 == 1) { x++; }
-			if(primo/3 == 1) { x++; }
-			if(primo/4 == 1) { x++; }
-			if(primo/5 == 1) { x++; }
-		} else {
+			if(primo%1 == 0) { x++; } 
+			if(primo%2 == 0) { x++; }
+			if(primo%3 == 0) { x++; }
+			if(primo%4 == 0) { x++; }
+			if(primo%5 == 0) { x++; }
+		if(x <= 2) { // Si se dividio menos de 2 veces es primo, en cambio si se dividio mas 1 ves no es numero primo
 			printf("Numero Primo");
-		}
-	}
-	else { printf("Numero fuera de rango"); }
-	
-	if(x < 2) { // Si se dividio menos de 2 veces es primo, en cambio si se dividio mas 1 ves no es numero primo
-		printf("Numero Primo");
-	} else { printf("Numero no Primo"); }
+		} else { printf("Numero no Primo"); }
+	} else { printf("Numero fuera de rango"); }
 	
 	printf("\n--------------------------------\n");
 	
