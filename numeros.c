@@ -9,7 +9,7 @@ main() {
 	int mayor, medio, menor; // numeros que se utilizaran para acomodar el orden de los numeros mayores y menores
 	
 	printf("NUMEROS PRIMOS:\nIntroduce un Numero del 1 al 5: "); scanf("%d", &primo);
-	if (primo < 1 || primo > 5) {
+	if (primo > 0 && primo < 6) {
 		if(primo != 1) { // Si el numero es 1 directamente es primo
 			if(primo/2 == 1) { x++; }
 			if(primo/3 == 1) { x++; }
