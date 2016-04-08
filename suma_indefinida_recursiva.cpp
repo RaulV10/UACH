@@ -8,7 +8,7 @@ int sumar( int x[], int n ) { // Arreglo, numero de elementos en el arreglo
     //En caso de que no haya ningun numero a sumar
     return 0;
   } else{
-    return x[n] + sumar(x, n-1); // Recursividad
+    return x[n-1] + sumar(x, n-1); // Recursividad
   }
 }
 
