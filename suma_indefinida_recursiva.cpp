@@ -4,7 +4,7 @@
 // Universidad Autonoma de Chihuahua - Ingenieria en Software
 
 int sumar( int x[], int n ) { // Arreglo, numero de elementos en el arreglo
-  if (n < 0) {
+  if (n <= 0) {
     //En caso de que no haya ningun numero a sumar
     return 0;
   } else{
