@@ -1,3 +1,6 @@
+// Raul Ernesto Villarreal Sigala - 301654
+// Universidad Autonoma de Chihuahua - Ingenieria en Software
+
 #include<stdio.h>
 
 void intercalar(int pares[], int impares[]) {
