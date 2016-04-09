@@ -1,9 +1,12 @@
+// Raul Ernesto Villarreal Sigala - 301654
+// Universidad Autonoma de Chihuahua - Ingenieria en Software
+
 #include<stdio.h>
 #include<string.h>
 
-/*Desarrollar programa que utilice una estructura para almacenar temperaturas en °C y su conversión a °F, otra estructura que almacene ubicación geográfica y la estructura de temperaturas.
+/*Desarrollar programa que utilice una estructura para almacenar temperaturas en Â°C y su conversiÃ³n a Â°F, otra estructura que almacene ubicaciÃ³n geogrÃ¡fica y la estructura de temperaturas.
 El programa recibe desde el teclado y almacena un arreglo de 5 ubicaciones.
-Obtener la ubicación con la temperatura más alta.*/
+Obtener la ubicaciÃ³n con la temperatura mÃ¡s alta.*/
 
 // Tipo de dato Struct
 struct TEMPERATURA {
