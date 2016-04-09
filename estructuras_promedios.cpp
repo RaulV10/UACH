@@ -1,7 +1,10 @@
+// Raul Ernesto Villarreal Sigala - 301654
+// Universidad Autonoma de Chihuahua - Ingenieria en Software
+
 #include<stdio.h>
 #include<string.h>
 
-/*Capturar en una estructura Número de lista, nombre, calif1, 2 y 3.
+/*Capturar en una estructura NÃºmero de lista, nombre, calif1, 2 y 3.
 *Capturar 10 registros
 *Calcular promedio de cada registro
 *Calcular promedio grupal*/
