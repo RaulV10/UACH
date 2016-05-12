@@ -1,12 +1,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+// 6 de Mayo del 2016
+// Raul Ernesto Villarreal Sigala - 301654
+// Universidad Autonoma de Chihuahua - Ingenieria en Software
+
 /*
 Se utiliza un arreglo de estructuras del tipo 'venta' de 10 elementos para capturar los datos; 
-la creación del arreglo es mediante apuntadores y función malloc
+la creaciÃ³n del arreglo es mediante apuntadores y funciÃ³n malloc
 
 
-La impresión de datos se hará mediante una función almacenada en un arreglo de funciones, que reciba la dirección del arreglo
+La impresiÃ³n de datos se harÃ¡ mediante una funciÃ³n almacenada en un arreglo de funciones, que reciba la direcciÃ³n del arreglo
 de ventas.
 */
 
